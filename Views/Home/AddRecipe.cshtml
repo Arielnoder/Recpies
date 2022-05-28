@@ -1,0 +1,50 @@
+@model Recipes.Models.RecipesModel
+@{
+    List<RecipesModel> recipes = TempData["Recipes"] as List<RecipesModel>;
+}
+
+ <form action="/Home/AddRecipePost" method="post" enctype="multipart/form-data">
+      <div class="form-group">
+        <label for="Name">Name</label>
+        <input type="text" class="form-control" id="Name" placeholder="Enter  Name" asp-for="Name"
+            minlength="2" maxlength="18" required>
+
+    </div>
+
+    <div class="form-group">
+        <label for="Description">Description</label>
+        <input type="textarea" class="form-control" id="Description" placeholder="Description" asp-for="description" required>
+
+    </div>
+
+
+    <div class="form-group">
+        <label for="Ingredients">Ingredients</label>
+        <input type="textarea" class="form-control" id="Ingredients" placeholder="Ingredients" asp-for="ingredients"
+            minlength="2" maxlength="500" required>
+    </div>
+
+    <div class="form-group">
+        <label for="Directions">Directions</label>
+        <input type="textarea"  class="form-control" id="Directions" placeholder="Directions" asp-for="directions"
+            minlength="2" maxlength="500" required>
+    </div>
+
+ 
+
+    <div class="form-group">
+        <label for="category">category</label>
+        <input type="text" class="form-control" id="category" placeholder="category" asp-for="category" required>
+    </div>
+    <div class="form-group">
+        <label for="ImageFile" class="control-label"></label>
+        <input asp-for="ImageFile" class="form-control">
+    </div>
+
+
+
+    <button type="submit" class="btn btn-primary">submit</button>
+ </form> 
+ <script>
+
+ </script>

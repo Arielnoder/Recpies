@@ -1,0 +1,58 @@
+@model Recipes.Models.RecipesModel
+@{
+
+
+
+    List<RecipesModel> recipes = TempData["Recipes"] as List<RecipesModel>;
+}
+
+<h1>Recipes</h1>
+
+
+<div class="container">
+    @if (recipes != null && recipes.Count >= 1)
+    {
+        <table class="table">
+            <thead class="thead-dark">
+                <tr>
+                    <th scope="col">ID</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Ingredients</th>
+                    <th scope="col">Description</th>
+                    <th scope="col">Directions</th>
+                    <th scope="col">Image</th>
+
+
+
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var recipe in recipes)
+                {
+                    <tr>
+                        <th scope="row">@recipe.Id</th>
+
+                        <td>@recipe.Name</td>
+                         <td>@recipe.ingredients</td>
+                        <td>@recipe.description</td>
+                        <td>@recipe.directions</td>
+                        <td><img src="~/images/@recipe.ImageName" width="50%"></td>
+                         <td>
+                            <form asp-action="RemoveRecipe" asp-controller="Home" method="post">
+                                <input type="hidden" asp-for="Id" value="@recipe.Id" />
+                                <button type="sumbit" class="btn btn-success">Remove</button>
+                            </form>
+                        </td>
+
+
+                    </tr>
+
+                }
+
+
+            </tbody>
+        </table>
+
+
+    }
+</div>
