@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/ariel/Recipes/Recipes.csproj": {}
+    "/home/tomer/Recpies/Recipes.csproj": {}
   },
   "projects": {
-    "/home/ariel/Recipes/Recipes.csproj": {
+    "/home/tomer/Recpies/Recipes.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/ariel/Recipes/Recipes.csproj",
+        "projectUniqueName": "/home/tomer/Recpies/Recipes.csproj",
         "projectName": "Recipes",
-        "projectPath": "/home/ariel/Recipes/Recipes.csproj",
-        "packagesPath": "/home/ariel/.nuget/packages/",
-        "outputPath": "/home/ariel/Recipes/obj/",
+        "projectPath": "/home/tomer/Recpies/Recipes.csproj",
+        "packagesPath": "/home/tomer/.nuget/packages/",
+        "outputPath": "/home/tomer/Recpies/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/ariel/.nuget/NuGet/NuGet.Config"
+          "/home/tomer/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -38,6 +38,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "CoreAdmin": {
+              "target": "Package",
+              "version": "[2.6.2, )"
+            },
             "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.4, )"
@@ -77,7 +81,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.202/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/6.0.100/RuntimeIdentifierGraph.json"
         }
       }
     }

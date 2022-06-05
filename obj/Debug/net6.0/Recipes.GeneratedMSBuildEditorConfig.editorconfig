@@ -8,53 +8,53 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Recipes
 build_property.RootNamespace = Recipes
-build_property.ProjectDir = /home/ariel/Recipes/
+build_property.ProjectDir = /home/tomer/Recpies/
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /home/ariel/Recipes
+build_property.MSBuildProjectDirectory = /home/tomer/Recpies
 build_property._RazorSourceGeneratorDebug = 
 
-[/home/ariel/Recipes/Areas/Identity/Pages/_ViewStart.cshtml]
+[/home/tomer/Recpies/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/ariel/Recipes/Views/Home/AddRecipe.cshtml]
+[/home/tomer/Recpies/Views/Home/About.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9BYm91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/tomer/Recpies/Views/Home/AddRecipe.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9BZGRSZWNpcGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/ariel/Recipes/Views/Home/Index.cshtml]
+[/home/tomer/Recpies/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/ariel/Recipes/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[/home/ariel/Recipes/Views/Home/Recipes.cshtml]
+[/home/tomer/Recpies/Views/Home/Recipes.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9SZWNpcGVzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/ariel/Recipes/Views/Shared/Error.cshtml]
+[/home/tomer/Recpies/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/ariel/Recipes/Views/Shared/_LoginPartial.cshtml]
+[/home/tomer/Recpies/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/ariel/Recipes/Views/Shared/_ValidationScriptsPartial.cshtml]
+[/home/tomer/Recpies/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/ariel/Recipes/Views/_ViewImports.cshtml]
+[/home/tomer/Recpies/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/ariel/Recipes/Views/_ViewStart.cshtml]
+[/home/tomer/Recpies/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/ariel/Recipes/Views/Shared/_Layout.cshtml]
+[/home/tomer/Recpies/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-z5g2vdgtdv

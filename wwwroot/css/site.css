@@ -1,18 +1,59 @@
 html {
-  font-size: 14px;
+    font-size: 14px;
 }
 
 @media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+    html {
+        font-size: 16px;
+    }
 }
 
 html {
-  position: relative;
-  min-height: 100%;
+    position: relative;
+    min-height: 100%;
 }
 
 body {
-  margin-bottom: 60px;
+    margin-bottom: 60px;
+}
+
+.mainimg {
+    border-radius: 5%;
+    width: 650px;
+    animation: frame 7s linear infinite;
+}
+
+@keyframes frame {
+    0% {
+        transform: scale(.9);
+        opacity: 0;
+    }
+    20% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    80% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(100px);
+        opacity: 0;
+    }
+}
+
+.close {
+    font-size: 1.5rem;
+}
+
+.col-12 img {
+    opacity: 0.7;
+    cursor: pointer;
+    margin: 2rem;
+    width: 100%;
+}
+
+.col-12 img:hover {
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }

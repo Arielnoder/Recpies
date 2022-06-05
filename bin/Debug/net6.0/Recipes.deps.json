@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v6.0": {
       "Recipes/1.0.0": {
         "dependencies": {
+          "CoreAdmin": "2.6.2",
           "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "6.0.4",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.4",
           "Microsoft.AspNetCore.Identity.UI": "6.0.4",
@@ -16,6 +17,18 @@
         },
         "runtime": {
           "Recipes.dll": {}
+        }
+      },
+      "CoreAdmin/2.6.2": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "6.0.4",
+          "NonFactors.Grid.Core.Mvc6": "7.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/DotNetEd.CoreAdmin.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "Humanizer.Core/2.8.26": {
@@ -275,6 +288,14 @@
           "System.Runtime.CompilerServices.Unsafe": "6.0.0"
         }
       },
+      "NonFactors.Grid.Core.Mvc6/7.0.0": {
+        "runtime": {
+          "lib/net6.0/Mvc.Grid.Core.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.0.0"
+          }
+        }
+      },
       "SQLitePCLRaw.bundle_e_sqlite3/2.0.6": {
         "dependencies": {
           "SQLitePCLRaw.core": "2.0.6",
@@ -420,6 +441,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "CoreAdmin/2.6.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-h1pNhGN+1e/FKCGEszbt72TnK0aedE7HJmPTVLrqP2Sid5F8w/ug24+7Kklr+RpwpAwaPJCii5B3O71NCYb5Hg==",
+      "path": "coreadmin/2.6.2",
+      "hashPath": "coreadmin.2.6.2.nupkg.sha512"
     },
     "Humanizer.Core/2.8.26": {
       "type": "package",
@@ -623,6 +651,13 @@
       "sha512": "sha512-9+PnzmQFfEFNR9J2aDTfJGGupShHjOuGw4VUv+JB044biSHrnmCIMD+mJHmb2H7YryrfBEXDurxQ47gJZdCKNQ==",
       "path": "microsoft.extensions.primitives/6.0.0",
       "hashPath": "microsoft.extensions.primitives.6.0.0.nupkg.sha512"
+    },
+    "NonFactors.Grid.Core.Mvc6/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-yBJAt29MPQSGL67cmI8xNWUivJVKYVE4iOCgqd72jfufg+Ak9ut3NWXpBFtSErK5SMo+NhwzWlUgBQ38fDN0Gg==",
+      "path": "nonfactors.grid.core.mvc6/7.0.0",
+      "hashPath": "nonfactors.grid.core.mvc6.7.0.0.nupkg.sha512"
     },
     "SQLitePCLRaw.bundle_e_sqlite3/2.0.6": {
       "type": "package",

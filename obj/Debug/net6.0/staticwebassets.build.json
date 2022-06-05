@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "E4Vrk1VBw+vv+PQA7LrkDpxh7Sj4hHvzNw4ArN+xGs4=",
+  "Hash": "nlAqfU2XDWWQVCEKS/T9DdS76Mx+lY744D0D+icDvCU=",
   "Source": "Recipes",
   "BasePath": "_content/Recipes",
   "Mode": "Default",
@@ -10,17 +10,646 @@
     {
       "Name": "Recipes/wwwroot",
       "Source": "Recipes",
-      "ContentRoot": "/home/ariel/Recipes/wwwroot/",
+      "ContentRoot": "/home/tomer/Recpies/wwwroot/",
       "BasePath": "_content/Recipes",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/css/site.css",
+      "Identity": "/home/tomer/.nuget/packages/coreadmin/2.6.2/staticwebassets/css/bootstrap-dark.css",
+      "SourceId": "CoreAdmin",
+      "SourceType": "Package",
+      "ContentRoot": "/home/tomer/.nuget/packages/coreadmin/2.6.2/staticwebassets/",
+      "BasePath": "_content/CoreAdmin",
+      "RelativePath": "css/bootstrap-dark.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/home/tomer/.nuget/packages/coreadmin/2.6.2/staticwebassets/css/bootstrap-dark.css"
+    },
+    {
+      "Identity": "/home/tomer/.nuget/packages/coreadmin/2.6.2/staticwebassets/css/bootstrap-dark.min.css",
+      "SourceId": "CoreAdmin",
+      "SourceType": "Package",
+      "ContentRoot": "/home/tomer/.nuget/packages/coreadmin/2.6.2/staticwebassets/",
+      "BasePath": "_content/CoreAdmin",
+      "RelativePath": "css/bootstrap-dark.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/home/tomer/.nuget/packages/coreadmin/2.6.2/staticwebassets/css/bootstrap-dark.min.css"
+    },
+    {
+      "Identity": "/home/tomer/.nuget/packages/coreadmin/2.6.2/staticwebassets/css/bootstrap-grid.css",
+      "SourceId": "CoreAdmin",
+      "SourceType": "Package",
+      "ContentRoot": "/home/tomer/.nuget/packages/coreadmin/2.6.2/staticwebassets/",
+      "BasePath": "_content/CoreAdmin",
+      "RelativePath": "css/bootstrap-grid.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/home/tomer/.nuget/packages/coreadmin/2.6.2/staticwebassets/css/bootstrap-grid.css"
+    },
+    {
+      "Identity": "/home/tomer/.nuget/packages/coreadmin/2.6.2/staticwebassets/css/bootstrap-grid.css.map",
+      "SourceId": "CoreAdmin",
+      "SourceType": "Package",
+      "ContentRoot": "/home/tomer/.nuget/packages/coreadmin/2.6.2/staticwebassets/",
+      "BasePath": "_content/CoreAdmin",
+      "RelativePath": "css/bootstrap-grid.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/home/tomer/.nuget/packages/coreadmin/2.6.2/staticwebassets/css/bootstrap-grid.css.map"
+    },
+    {
+      "Identity": "/home/tomer/.nuget/packages/coreadmin/2.6.2/staticwebassets/css/bootstrap-grid.min.css",
+      "SourceId": "CoreAdmin",
+      "SourceType": "Package",
+      "ContentRoot": "/home/tomer/.nuget/packages/coreadmin/2.6.2/staticwebassets/",
+      "BasePath": "_content/CoreAdmin",
+      "RelativePath": "css/bootstrap-grid.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/home/tomer/.nuget/packages/coreadmin/2.6.2/staticwebassets/css/bootstrap-grid.min.css"
+    },
+    {
+      "Identity": "/home/tomer/.nuget/packages/coreadmin/2.6.2/staticwebassets/css/bootstrap-grid.min.css.map",
+      "SourceId": "CoreAdmin",
+      "SourceType": "Package",
+      "ContentRoot": "/home/tomer/.nuget/packages/coreadmin/2.6.2/staticwebassets/",
+      "BasePath": "_content/CoreAdmin",
+      "RelativePath": "css/bootstrap-grid.min.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/home/tomer/.nuget/packages/coreadmin/2.6.2/staticwebassets/css/bootstrap-grid.min.css.map"
+    },
+    {
+      "Identity": "/home/tomer/.nuget/packages/coreadmin/2.6.2/staticwebassets/css/bootstrap-reboot.css",
+      "SourceId": "CoreAdmin",
+      "SourceType": "Package",
+      "ContentRoot": "/home/tomer/.nuget/packages/coreadmin/2.6.2/staticwebassets/",
+      "BasePath": "_content/CoreAdmin",
+      "RelativePath": "css/bootstrap-reboot.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/home/tomer/.nuget/packages/coreadmin/2.6.2/staticwebassets/css/bootstrap-reboot.css"
+    },
+    {
+      "Identity": "/home/tomer/.nuget/packages/coreadmin/2.6.2/staticwebassets/css/bootstrap-reboot.css.map",
+      "SourceId": "CoreAdmin",
+      "SourceType": "Package",
+      "ContentRoot": "/home/tomer/.nuget/packages/coreadmin/2.6.2/staticwebassets/",
+      "BasePath": "_content/CoreAdmin",
+      "RelativePath": "css/bootstrap-reboot.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/home/tomer/.nuget/packages/coreadmin/2.6.2/staticwebassets/css/bootstrap-reboot.css.map"
+    },
+    {
+      "Identity": "/home/tomer/.nuget/packages/coreadmin/2.6.2/staticwebassets/css/bootstrap-reboot.min.css",
+      "SourceId": "CoreAdmin",
+      "SourceType": "Package",
+      "ContentRoot": "/home/tomer/.nuget/packages/coreadmin/2.6.2/staticwebassets/",
+      "BasePath": "_content/CoreAdmin",
+      "RelativePath": "css/bootstrap-reboot.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/home/tomer/.nuget/packages/coreadmin/2.6.2/staticwebassets/css/bootstrap-reboot.min.css"
+    },
+    {
+      "Identity": "/home/tomer/.nuget/packages/coreadmin/2.6.2/staticwebassets/css/bootstrap-reboot.min.css.map",
+      "SourceId": "CoreAdmin",
+      "SourceType": "Package",
+      "ContentRoot": "/home/tomer/.nuget/packages/coreadmin/2.6.2/staticwebassets/",
+      "BasePath": "_content/CoreAdmin",
+      "RelativePath": "css/bootstrap-reboot.min.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/home/tomer/.nuget/packages/coreadmin/2.6.2/staticwebassets/css/bootstrap-reboot.min.css.map"
+    },
+    {
+      "Identity": "/home/tomer/.nuget/packages/coreadmin/2.6.2/staticwebassets/css/bootstrap.css",
+      "SourceId": "CoreAdmin",
+      "SourceType": "Package",
+      "ContentRoot": "/home/tomer/.nuget/packages/coreadmin/2.6.2/staticwebassets/",
+      "BasePath": "_content/CoreAdmin",
+      "RelativePath": "css/bootstrap.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/home/tomer/.nuget/packages/coreadmin/2.6.2/staticwebassets/css/bootstrap.css"
+    },
+    {
+      "Identity": "/home/tomer/.nuget/packages/coreadmin/2.6.2/staticwebassets/css/bootstrap.css.map",
+      "SourceId": "CoreAdmin",
+      "SourceType": "Package",
+      "ContentRoot": "/home/tomer/.nuget/packages/coreadmin/2.6.2/staticwebassets/",
+      "BasePath": "_content/CoreAdmin",
+      "RelativePath": "css/bootstrap.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/home/tomer/.nuget/packages/coreadmin/2.6.2/staticwebassets/css/bootstrap.css.map"
+    },
+    {
+      "Identity": "/home/tomer/.nuget/packages/coreadmin/2.6.2/staticwebassets/css/bootstrap.min.css",
+      "SourceId": "CoreAdmin",
+      "SourceType": "Package",
+      "ContentRoot": "/home/tomer/.nuget/packages/coreadmin/2.6.2/staticwebassets/",
+      "BasePath": "_content/CoreAdmin",
+      "RelativePath": "css/bootstrap.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/home/tomer/.nuget/packages/coreadmin/2.6.2/staticwebassets/css/bootstrap.min.css"
+    },
+    {
+      "Identity": "/home/tomer/.nuget/packages/coreadmin/2.6.2/staticwebassets/css/bootstrap.min.css.map",
+      "SourceId": "CoreAdmin",
+      "SourceType": "Package",
+      "ContentRoot": "/home/tomer/.nuget/packages/coreadmin/2.6.2/staticwebassets/",
+      "BasePath": "_content/CoreAdmin",
+      "RelativePath": "css/bootstrap.min.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/home/tomer/.nuget/packages/coreadmin/2.6.2/staticwebassets/css/bootstrap.min.css.map"
+    },
+    {
+      "Identity": "/home/tomer/.nuget/packages/coreadmin/2.6.2/staticwebassets/css/easymde/easymde-dark.css",
+      "SourceId": "CoreAdmin",
+      "SourceType": "Package",
+      "ContentRoot": "/home/tomer/.nuget/packages/coreadmin/2.6.2/staticwebassets/",
+      "BasePath": "_content/CoreAdmin",
+      "RelativePath": "css/easymde/easymde-dark.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/home/tomer/.nuget/packages/coreadmin/2.6.2/staticwebassets/css/easymde/easymde-dark.css"
+    },
+    {
+      "Identity": "/home/tomer/.nuget/packages/coreadmin/2.6.2/staticwebassets/css/easymde/easymde-dark.min.css",
+      "SourceId": "CoreAdmin",
+      "SourceType": "Package",
+      "ContentRoot": "/home/tomer/.nuget/packages/coreadmin/2.6.2/staticwebassets/",
+      "BasePath": "_content/CoreAdmin",
+      "RelativePath": "css/easymde/easymde-dark.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/home/tomer/.nuget/packages/coreadmin/2.6.2/staticwebassets/css/easymde/easymde-dark.min.css"
+    },
+    {
+      "Identity": "/home/tomer/.nuget/packages/coreadmin/2.6.2/staticwebassets/css/easymde/easymde.css",
+      "SourceId": "CoreAdmin",
+      "SourceType": "Package",
+      "ContentRoot": "/home/tomer/.nuget/packages/coreadmin/2.6.2/staticwebassets/",
+      "BasePath": "_content/CoreAdmin",
+      "RelativePath": "css/easymde/easymde.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/home/tomer/.nuget/packages/coreadmin/2.6.2/staticwebassets/css/easymde/easymde.css"
+    },
+    {
+      "Identity": "/home/tomer/.nuget/packages/coreadmin/2.6.2/staticwebassets/css/easymde/easymde.min.css",
+      "SourceId": "CoreAdmin",
+      "SourceType": "Package",
+      "ContentRoot": "/home/tomer/.nuget/packages/coreadmin/2.6.2/staticwebassets/",
+      "BasePath": "_content/CoreAdmin",
+      "RelativePath": "css/easymde/easymde.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/home/tomer/.nuget/packages/coreadmin/2.6.2/staticwebassets/css/easymde/easymde.min.css"
+    },
+    {
+      "Identity": "/home/tomer/.nuget/packages/coreadmin/2.6.2/staticwebassets/css/jquery-ui.min.css",
+      "SourceId": "CoreAdmin",
+      "SourceType": "Package",
+      "ContentRoot": "/home/tomer/.nuget/packages/coreadmin/2.6.2/staticwebassets/",
+      "BasePath": "_content/CoreAdmin",
+      "RelativePath": "css/jquery-ui.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/home/tomer/.nuget/packages/coreadmin/2.6.2/staticwebassets/css/jquery-ui.min.css"
+    },
+    {
+      "Identity": "/home/tomer/.nuget/packages/coreadmin/2.6.2/staticwebassets/css/mvc-grid/fonts/grid-glyphs.woff",
+      "SourceId": "CoreAdmin",
+      "SourceType": "Package",
+      "ContentRoot": "/home/tomer/.nuget/packages/coreadmin/2.6.2/staticwebassets/",
+      "BasePath": "_content/CoreAdmin",
+      "RelativePath": "css/mvc-grid/fonts/grid-glyphs.woff",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/home/tomer/.nuget/packages/coreadmin/2.6.2/staticwebassets/css/mvc-grid/fonts/grid-glyphs.woff"
+    },
+    {
+      "Identity": "/home/tomer/.nuget/packages/coreadmin/2.6.2/staticwebassets/css/mvc-grid/mvc-grid-dark.css",
+      "SourceId": "CoreAdmin",
+      "SourceType": "Package",
+      "ContentRoot": "/home/tomer/.nuget/packages/coreadmin/2.6.2/staticwebassets/",
+      "BasePath": "_content/CoreAdmin",
+      "RelativePath": "css/mvc-grid/mvc-grid-dark.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/home/tomer/.nuget/packages/coreadmin/2.6.2/staticwebassets/css/mvc-grid/mvc-grid-dark.css"
+    },
+    {
+      "Identity": "/home/tomer/.nuget/packages/coreadmin/2.6.2/staticwebassets/css/mvc-grid/mvc-grid.css",
+      "SourceId": "CoreAdmin",
+      "SourceType": "Package",
+      "ContentRoot": "/home/tomer/.nuget/packages/coreadmin/2.6.2/staticwebassets/",
+      "BasePath": "_content/CoreAdmin",
+      "RelativePath": "css/mvc-grid/mvc-grid.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/home/tomer/.nuget/packages/coreadmin/2.6.2/staticwebassets/css/mvc-grid/mvc-grid.css"
+    },
+    {
+      "Identity": "/home/tomer/.nuget/packages/coreadmin/2.6.2/staticwebassets/css/site.css",
+      "SourceId": "CoreAdmin",
+      "SourceType": "Package",
+      "ContentRoot": "/home/tomer/.nuget/packages/coreadmin/2.6.2/staticwebassets/",
+      "BasePath": "_content/CoreAdmin",
+      "RelativePath": "css/site.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/home/tomer/.nuget/packages/coreadmin/2.6.2/staticwebassets/css/site.css"
+    },
+    {
+      "Identity": "/home/tomer/.nuget/packages/coreadmin/2.6.2/staticwebassets/js/additional-methods.js",
+      "SourceId": "CoreAdmin",
+      "SourceType": "Package",
+      "ContentRoot": "/home/tomer/.nuget/packages/coreadmin/2.6.2/staticwebassets/",
+      "BasePath": "_content/CoreAdmin",
+      "RelativePath": "js/additional-methods.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/home/tomer/.nuget/packages/coreadmin/2.6.2/staticwebassets/js/additional-methods.js"
+    },
+    {
+      "Identity": "/home/tomer/.nuget/packages/coreadmin/2.6.2/staticwebassets/js/additional-methods.min.js",
+      "SourceId": "CoreAdmin",
+      "SourceType": "Package",
+      "ContentRoot": "/home/tomer/.nuget/packages/coreadmin/2.6.2/staticwebassets/",
+      "BasePath": "_content/CoreAdmin",
+      "RelativePath": "js/additional-methods.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/home/tomer/.nuget/packages/coreadmin/2.6.2/staticwebassets/js/additional-methods.min.js"
+    },
+    {
+      "Identity": "/home/tomer/.nuget/packages/coreadmin/2.6.2/staticwebassets/js/bootstrap.bundle.min.js",
+      "SourceId": "CoreAdmin",
+      "SourceType": "Package",
+      "ContentRoot": "/home/tomer/.nuget/packages/coreadmin/2.6.2/staticwebassets/",
+      "BasePath": "_content/CoreAdmin",
+      "RelativePath": "js/bootstrap.bundle.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/home/tomer/.nuget/packages/coreadmin/2.6.2/staticwebassets/js/bootstrap.bundle.min.js"
+    },
+    {
+      "Identity": "/home/tomer/.nuget/packages/coreadmin/2.6.2/staticwebassets/js/bootstrap.min.js",
+      "SourceId": "CoreAdmin",
+      "SourceType": "Package",
+      "ContentRoot": "/home/tomer/.nuget/packages/coreadmin/2.6.2/staticwebassets/",
+      "BasePath": "_content/CoreAdmin",
+      "RelativePath": "js/bootstrap.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/home/tomer/.nuget/packages/coreadmin/2.6.2/staticwebassets/js/bootstrap.min.js"
+    },
+    {
+      "Identity": "/home/tomer/.nuget/packages/coreadmin/2.6.2/staticwebassets/js/easymde/easymde.min.js",
+      "SourceId": "CoreAdmin",
+      "SourceType": "Package",
+      "ContentRoot": "/home/tomer/.nuget/packages/coreadmin/2.6.2/staticwebassets/",
+      "BasePath": "_content/CoreAdmin",
+      "RelativePath": "js/easymde/easymde.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/home/tomer/.nuget/packages/coreadmin/2.6.2/staticwebassets/js/easymde/easymde.min.js"
+    },
+    {
+      "Identity": "/home/tomer/.nuget/packages/coreadmin/2.6.2/staticwebassets/js/jquery-ui.min.js",
+      "SourceId": "CoreAdmin",
+      "SourceType": "Package",
+      "ContentRoot": "/home/tomer/.nuget/packages/coreadmin/2.6.2/staticwebassets/",
+      "BasePath": "_content/CoreAdmin",
+      "RelativePath": "js/jquery-ui.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/home/tomer/.nuget/packages/coreadmin/2.6.2/staticwebassets/js/jquery-ui.min.js"
+    },
+    {
+      "Identity": "/home/tomer/.nuget/packages/coreadmin/2.6.2/staticwebassets/js/jquery.js",
+      "SourceId": "CoreAdmin",
+      "SourceType": "Package",
+      "ContentRoot": "/home/tomer/.nuget/packages/coreadmin/2.6.2/staticwebassets/",
+      "BasePath": "_content/CoreAdmin",
+      "RelativePath": "js/jquery.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/home/tomer/.nuget/packages/coreadmin/2.6.2/staticwebassets/js/jquery.js"
+    },
+    {
+      "Identity": "/home/tomer/.nuget/packages/coreadmin/2.6.2/staticwebassets/js/jquery.min.js",
+      "SourceId": "CoreAdmin",
+      "SourceType": "Package",
+      "ContentRoot": "/home/tomer/.nuget/packages/coreadmin/2.6.2/staticwebassets/",
+      "BasePath": "_content/CoreAdmin",
+      "RelativePath": "js/jquery.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/home/tomer/.nuget/packages/coreadmin/2.6.2/staticwebassets/js/jquery.min.js"
+    },
+    {
+      "Identity": "/home/tomer/.nuget/packages/coreadmin/2.6.2/staticwebassets/js/jquery.min.map",
+      "SourceId": "CoreAdmin",
+      "SourceType": "Package",
+      "ContentRoot": "/home/tomer/.nuget/packages/coreadmin/2.6.2/staticwebassets/",
+      "BasePath": "_content/CoreAdmin",
+      "RelativePath": "js/jquery.min.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/home/tomer/.nuget/packages/coreadmin/2.6.2/staticwebassets/js/jquery.min.map"
+    },
+    {
+      "Identity": "/home/tomer/.nuget/packages/coreadmin/2.6.2/staticwebassets/js/jquery.validate.js",
+      "SourceId": "CoreAdmin",
+      "SourceType": "Package",
+      "ContentRoot": "/home/tomer/.nuget/packages/coreadmin/2.6.2/staticwebassets/",
+      "BasePath": "_content/CoreAdmin",
+      "RelativePath": "js/jquery.validate.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/home/tomer/.nuget/packages/coreadmin/2.6.2/staticwebassets/js/jquery.validate.js"
+    },
+    {
+      "Identity": "/home/tomer/.nuget/packages/coreadmin/2.6.2/staticwebassets/js/jquery.validate.unobtrusive.js",
+      "SourceId": "CoreAdmin",
+      "SourceType": "Package",
+      "ContentRoot": "/home/tomer/.nuget/packages/coreadmin/2.6.2/staticwebassets/",
+      "BasePath": "_content/CoreAdmin",
+      "RelativePath": "js/jquery.validate.unobtrusive.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/home/tomer/.nuget/packages/coreadmin/2.6.2/staticwebassets/js/jquery.validate.unobtrusive.js"
+    },
+    {
+      "Identity": "/home/tomer/.nuget/packages/coreadmin/2.6.2/staticwebassets/js/jquery.validate.unobtrusive.min.js",
+      "SourceId": "CoreAdmin",
+      "SourceType": "Package",
+      "ContentRoot": "/home/tomer/.nuget/packages/coreadmin/2.6.2/staticwebassets/",
+      "BasePath": "_content/CoreAdmin",
+      "RelativePath": "js/jquery.validate.unobtrusive.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/home/tomer/.nuget/packages/coreadmin/2.6.2/staticwebassets/js/jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Identity": "/home/tomer/.nuget/packages/coreadmin/2.6.2/staticwebassets/js/mvc-grid/mvc-grid.js",
+      "SourceId": "CoreAdmin",
+      "SourceType": "Package",
+      "ContentRoot": "/home/tomer/.nuget/packages/coreadmin/2.6.2/staticwebassets/",
+      "BasePath": "_content/CoreAdmin",
+      "RelativePath": "js/mvc-grid/mvc-grid.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/home/tomer/.nuget/packages/coreadmin/2.6.2/staticwebassets/js/mvc-grid/mvc-grid.js"
+    },
+    {
+      "Identity": "/home/tomer/.nuget/packages/coreadmin/2.6.2/staticwebassets/js/site.js",
+      "SourceId": "CoreAdmin",
+      "SourceType": "Package",
+      "ContentRoot": "/home/tomer/.nuget/packages/coreadmin/2.6.2/staticwebassets/",
+      "BasePath": "_content/CoreAdmin",
+      "RelativePath": "js/site.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/home/tomer/.nuget/packages/coreadmin/2.6.2/staticwebassets/js/site.js"
+    },
+    {
+      "Identity": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/css/site.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/",
+      "ContentRoot": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/",
       "BasePath": "Identity",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -31,13 +660,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/css/site.css"
+      "OriginalItemSpec": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/css/site.css"
     },
     {
-      "Identity": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/favicon.ico",
+      "Identity": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/favicon.ico",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/",
+      "ContentRoot": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/",
       "BasePath": "Identity",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -48,13 +677,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/favicon.ico"
+      "OriginalItemSpec": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/favicon.ico"
     },
     {
-      "Identity": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/js/site.js",
+      "Identity": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/js/site.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/",
+      "ContentRoot": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/",
       "BasePath": "Identity",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -65,13 +694,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/js/site.js"
+      "OriginalItemSpec": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/js/site.js"
     },
     {
-      "Identity": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "Identity": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-grid.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/",
+      "ContentRoot": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -82,13 +711,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-grid.css"
+      "OriginalItemSpec": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-grid.css"
     },
     {
-      "Identity": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "Identity": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/",
+      "ContentRoot": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -99,13 +728,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-grid.css.map"
+      "OriginalItemSpec": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-grid.css.map"
     },
     {
-      "Identity": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "Identity": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/",
+      "ContentRoot": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -116,13 +745,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-grid.min.css"
+      "OriginalItemSpec": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-grid.min.css"
     },
     {
-      "Identity": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "Identity": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/",
+      "ContentRoot": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -133,13 +762,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
+      "OriginalItemSpec": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "Identity": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/",
+      "ContentRoot": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -150,13 +779,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
+      "OriginalItemSpec": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "Identity": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/",
+      "ContentRoot": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -167,13 +796,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
+      "OriginalItemSpec": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "Identity": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/",
+      "ContentRoot": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -184,13 +813,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
+      "OriginalItemSpec": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "Identity": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/",
+      "ContentRoot": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -201,13 +830,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
+      "OriginalItemSpec": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "Identity": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-reboot.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/",
+      "ContentRoot": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -218,13 +847,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-reboot.css"
+      "OriginalItemSpec": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-reboot.css"
     },
     {
-      "Identity": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "Identity": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/",
+      "ContentRoot": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -235,13 +864,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
+      "OriginalItemSpec": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
     },
     {
-      "Identity": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "Identity": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/",
+      "ContentRoot": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -252,13 +881,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
+      "OriginalItemSpec": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
     },
     {
-      "Identity": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "Identity": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/",
+      "ContentRoot": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -269,13 +898,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
+      "OriginalItemSpec": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "Identity": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/",
+      "ContentRoot": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -286,13 +915,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
+      "OriginalItemSpec": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "Identity": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/",
+      "ContentRoot": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -303,13 +932,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
+      "OriginalItemSpec": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "Identity": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/",
+      "ContentRoot": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -320,13 +949,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
+      "OriginalItemSpec": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "Identity": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/",
+      "ContentRoot": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -337,13 +966,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
+      "OriginalItemSpec": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "Identity": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-utilities.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/",
+      "ContentRoot": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -354,13 +983,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-utilities.css"
+      "OriginalItemSpec": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-utilities.css"
     },
     {
-      "Identity": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "Identity": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/",
+      "ContentRoot": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -371,13 +1000,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
+      "OriginalItemSpec": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
     },
     {
-      "Identity": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "Identity": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/",
+      "ContentRoot": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -388,13 +1017,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
+      "OriginalItemSpec": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
     },
     {
-      "Identity": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "Identity": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/",
+      "ContentRoot": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -405,13 +1034,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
+      "OriginalItemSpec": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "Identity": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/",
+      "ContentRoot": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -422,13 +1051,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
+      "OriginalItemSpec": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "Identity": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/",
+      "ContentRoot": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -439,13 +1068,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
+      "OriginalItemSpec": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "Identity": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/",
+      "ContentRoot": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -456,13 +1085,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
+      "OriginalItemSpec": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "Identity": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/",
+      "ContentRoot": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -473,13 +1102,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
+      "OriginalItemSpec": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap.css",
+      "Identity": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/",
+      "ContentRoot": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -490,13 +1119,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap.css"
+      "OriginalItemSpec": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap.css"
     },
     {
-      "Identity": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap.css.map",
+      "Identity": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/",
+      "ContentRoot": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -507,13 +1136,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap.css.map"
+      "OriginalItemSpec": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap.css.map"
     },
     {
-      "Identity": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap.min.css",
+      "Identity": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap.min.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/",
+      "ContentRoot": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -524,13 +1153,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap.min.css"
+      "OriginalItemSpec": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap.min.css"
     },
     {
-      "Identity": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "Identity": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap.min.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/",
+      "ContentRoot": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -541,13 +1170,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap.min.css.map"
+      "OriginalItemSpec": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap.min.css.map"
     },
     {
-      "Identity": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "Identity": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap.rtl.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/",
+      "ContentRoot": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -558,13 +1187,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap.rtl.css"
+      "OriginalItemSpec": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap.rtl.css"
     },
     {
-      "Identity": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "Identity": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/",
+      "ContentRoot": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -575,13 +1204,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
+      "OriginalItemSpec": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
     },
     {
-      "Identity": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "Identity": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/",
+      "ContentRoot": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -592,13 +1221,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
+      "OriginalItemSpec": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
     },
     {
-      "Identity": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "Identity": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/",
+      "ContentRoot": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -609,13 +1238,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
+      "OriginalItemSpec": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "Identity": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.bundle.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/",
+      "ContentRoot": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -626,13 +1255,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.bundle.js"
+      "OriginalItemSpec": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.bundle.js"
     },
     {
-      "Identity": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "Identity": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/",
+      "ContentRoot": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -643,13 +1272,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
+      "OriginalItemSpec": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
     },
     {
-      "Identity": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "Identity": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/",
+      "ContentRoot": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -660,13 +1289,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
+      "OriginalItemSpec": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
     },
     {
-      "Identity": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "Identity": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/",
+      "ContentRoot": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -677,13 +1306,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
+      "OriginalItemSpec": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.esm.js",
+      "Identity": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.esm.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/",
+      "ContentRoot": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -694,13 +1323,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.esm.js"
+      "OriginalItemSpec": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.esm.js"
     },
     {
-      "Identity": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.esm.js.map",
+      "Identity": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/",
+      "ContentRoot": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -711,13 +1340,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.esm.js.map"
+      "OriginalItemSpec": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.esm.js.map"
     },
     {
-      "Identity": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.esm.min.js",
+      "Identity": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/",
+      "ContentRoot": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -728,13 +1357,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.esm.min.js"
+      "OriginalItemSpec": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.esm.min.js"
     },
     {
-      "Identity": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "Identity": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/",
+      "ContentRoot": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -745,13 +1374,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
+      "OriginalItemSpec": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.js",
+      "Identity": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/",
+      "ContentRoot": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -762,13 +1391,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.js"
+      "OriginalItemSpec": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.js"
     },
     {
-      "Identity": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.js.map",
+      "Identity": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.js.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/",
+      "ContentRoot": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -779,13 +1408,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.js.map"
+      "OriginalItemSpec": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.js.map"
     },
     {
-      "Identity": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.min.js",
+      "Identity": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.min.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/",
+      "ContentRoot": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -796,13 +1425,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.min.js"
+      "OriginalItemSpec": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.min.js"
     },
     {
-      "Identity": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "Identity": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.min.js.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/",
+      "ContentRoot": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -813,13 +1442,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.min.js.map"
+      "OriginalItemSpec": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.min.js.map"
     },
     {
-      "Identity": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/LICENSE",
+      "Identity": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/LICENSE",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/",
+      "ContentRoot": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -830,13 +1459,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/LICENSE"
+      "OriginalItemSpec": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/bootstrap/LICENSE"
     },
     {
-      "Identity": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "Identity": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/",
+      "ContentRoot": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -847,13 +1476,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
+      "OriginalItemSpec": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "Identity": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/",
+      "ContentRoot": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -864,13 +1493,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
+      "OriginalItemSpec": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "Identity": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/jquery-validation-unobtrusive/LICENSE.txt",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/",
+      "ContentRoot": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -881,13 +1510,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/jquery-validation-unobtrusive/LICENSE.txt"
+      "OriginalItemSpec": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/jquery-validation-unobtrusive/LICENSE.txt"
     },
     {
-      "Identity": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/jquery-validation/dist/additional-methods.js",
+      "Identity": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/jquery-validation/dist/additional-methods.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/",
+      "ContentRoot": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -898,13 +1527,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/jquery-validation/dist/additional-methods.js"
+      "OriginalItemSpec": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/jquery-validation/dist/additional-methods.js"
     },
     {
-      "Identity": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/jquery-validation/dist/additional-methods.min.js",
+      "Identity": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/jquery-validation/dist/additional-methods.min.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/",
+      "ContentRoot": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -915,13 +1544,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/jquery-validation/dist/additional-methods.min.js"
+      "OriginalItemSpec": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/jquery-validation/dist/additional-methods.min.js"
     },
     {
-      "Identity": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/jquery-validation/dist/jquery.validate.js",
+      "Identity": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/jquery-validation/dist/jquery.validate.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/",
+      "ContentRoot": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -932,13 +1561,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/jquery-validation/dist/jquery.validate.js"
+      "OriginalItemSpec": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/jquery-validation/dist/jquery.validate.js"
     },
     {
-      "Identity": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/jquery-validation/dist/jquery.validate.min.js",
+      "Identity": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/jquery-validation/dist/jquery.validate.min.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/",
+      "ContentRoot": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -949,13 +1578,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/jquery-validation/dist/jquery.validate.min.js"
+      "OriginalItemSpec": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/jquery-validation/dist/jquery.validate.min.js"
     },
     {
-      "Identity": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/jquery-validation/LICENSE.md",
+      "Identity": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/jquery-validation/LICENSE.md",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/",
+      "ContentRoot": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -966,13 +1595,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/jquery-validation/LICENSE.md"
+      "OriginalItemSpec": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/jquery-validation/LICENSE.md"
     },
     {
-      "Identity": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/jquery/dist/jquery.js",
+      "Identity": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/jquery/dist/jquery.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/",
+      "ContentRoot": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -983,13 +1612,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/jquery/dist/jquery.js"
+      "OriginalItemSpec": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/jquery/dist/jquery.js"
     },
     {
-      "Identity": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/jquery/dist/jquery.min.js",
+      "Identity": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/jquery/dist/jquery.min.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/",
+      "ContentRoot": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -1000,13 +1629,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/jquery/dist/jquery.min.js"
+      "OriginalItemSpec": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/jquery/dist/jquery.min.js"
     },
     {
-      "Identity": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/jquery/dist/jquery.min.map",
+      "Identity": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/jquery/dist/jquery.min.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/",
+      "ContentRoot": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -1017,13 +1646,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/jquery/dist/jquery.min.map"
+      "OriginalItemSpec": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/jquery/dist/jquery.min.map"
     },
     {
-      "Identity": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/jquery/LICENSE.txt",
+      "Identity": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/jquery/LICENSE.txt",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/",
+      "ContentRoot": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -1034,13 +1663,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/ariel/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/jquery/LICENSE.txt"
+      "OriginalItemSpec": "/home/tomer/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.4/staticwebassets/V5/lib/jquery/LICENSE.txt"
     },
     {
-      "Identity": "/home/ariel/Recipes/obj/Debug/net6.0/scopedcss/bundle/Recipes.styles.css",
+      "Identity": "/home/tomer/Recpies/obj/Debug/net6.0/scopedcss/bundle/Recipes.styles.css",
       "SourceId": "Recipes",
       "SourceType": "Computed",
-      "ContentRoot": "/home/ariel/Recipes/obj/Debug/net6.0/scopedcss/bundle/",
+      "ContentRoot": "/home/tomer/Recpies/obj/Debug/net6.0/scopedcss/bundle/",
       "BasePath": "_content/Recipes",
       "RelativePath": "Recipes.styles.css",
       "AssetKind": "All",
@@ -1051,13 +1680,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/ariel/Recipes/obj/Debug/net6.0/scopedcss/bundle/Recipes.styles.css"
+      "OriginalItemSpec": "/home/tomer/Recpies/obj/Debug/net6.0/scopedcss/bundle/Recipes.styles.css"
     },
     {
-      "Identity": "/home/ariel/Recipes/obj/Debug/net6.0/scopedcss/projectbundle/Recipes.bundle.scp.css",
+      "Identity": "/home/tomer/Recpies/obj/Debug/net6.0/scopedcss/projectbundle/Recipes.bundle.scp.css",
       "SourceId": "Recipes",
       "SourceType": "Computed",
-      "ContentRoot": "/home/ariel/Recipes/obj/Debug/net6.0/scopedcss/projectbundle/",
+      "ContentRoot": "/home/tomer/Recpies/obj/Debug/net6.0/scopedcss/projectbundle/",
       "BasePath": "_content/Recipes",
       "RelativePath": "Recipes.bundle.scp.css",
       "AssetKind": "All",
@@ -1068,13 +1697,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/ariel/Recipes/obj/Debug/net6.0/scopedcss/projectbundle/Recipes.bundle.scp.css"
+      "OriginalItemSpec": "/home/tomer/Recpies/obj/Debug/net6.0/scopedcss/projectbundle/Recipes.bundle.scp.css"
     },
     {
-      "Identity": "/home/ariel/Recipes/wwwroot/css/site.css",
+      "Identity": "/home/tomer/Recpies/wwwroot/css/site.css",
       "SourceId": "Recipes",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/ariel/Recipes/wwwroot/",
+      "ContentRoot": "/home/tomer/Recpies/wwwroot/",
       "BasePath": "_content/Recipes",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -1088,10 +1717,10 @@
       "OriginalItemSpec": "wwwroot/css/site.css"
     },
     {
-      "Identity": "/home/ariel/Recipes/wwwroot/favicon.ico",
+      "Identity": "/home/tomer/Recpies/wwwroot/favicon.ico",
       "SourceId": "Recipes",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/ariel/Recipes/wwwroot/",
+      "ContentRoot": "/home/tomer/Recpies/wwwroot/",
       "BasePath": "_content/Recipes",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -1105,10 +1734,112 @@
       "OriginalItemSpec": "wwwroot/favicon.ico"
     },
     {
-      "Identity": "/home/ariel/Recipes/wwwroot/images/Screenshot-3.png",
+      "Identity": "/home/tomer/Recpies/wwwroot/images/beefsandwich.jpg",
       "SourceId": "Recipes",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/ariel/Recipes/wwwroot/",
+      "ContentRoot": "/home/tomer/Recpies/wwwroot/",
+      "BasePath": "_content/Recipes",
+      "RelativePath": "images/beefsandwich.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/beefsandwich.jpg"
+    },
+    {
+      "Identity": "/home/tomer/Recpies/wwwroot/images/bettershakshuka.jpg",
+      "SourceId": "Recipes",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/tomer/Recpies/wwwroot/",
+      "BasePath": "_content/Recipes",
+      "RelativePath": "images/bettershakshuka.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/bettershakshuka.jpg"
+    },
+    {
+      "Identity": "/home/tomer/Recpies/wwwroot/images/collage.jpeg",
+      "SourceId": "Recipes",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/tomer/Recpies/wwwroot/",
+      "BasePath": "_content/Recipes",
+      "RelativePath": "images/collage.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/collage.jpeg"
+    },
+    {
+      "Identity": "/home/tomer/Recpies/wwwroot/images/overwatch.png",
+      "SourceId": "Recipes",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/tomer/Recpies/wwwroot/",
+      "BasePath": "_content/Recipes",
+      "RelativePath": "images/overwatch.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/overwatch.png"
+    },
+    {
+      "Identity": "/home/tomer/Recpies/wwwroot/images/Screenshot-1.png",
+      "SourceId": "Recipes",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/tomer/Recpies/wwwroot/",
+      "BasePath": "_content/Recipes",
+      "RelativePath": "images/Screenshot-1.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/Screenshot-1.png"
+    },
+    {
+      "Identity": "/home/tomer/Recpies/wwwroot/images/Screenshot-2.png",
+      "SourceId": "Recipes",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/tomer/Recpies/wwwroot/",
+      "BasePath": "_content/Recipes",
+      "RelativePath": "images/Screenshot-2.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/Screenshot-2.png"
+    },
+    {
+      "Identity": "/home/tomer/Recpies/wwwroot/images/Screenshot-3.png",
+      "SourceId": "Recipes",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/tomer/Recpies/wwwroot/",
       "BasePath": "_content/Recipes",
       "RelativePath": "images/Screenshot-3.png",
       "AssetKind": "All",
@@ -1122,10 +1853,44 @@
       "OriginalItemSpec": "wwwroot/images/Screenshot-3.png"
     },
     {
-      "Identity": "/home/ariel/Recipes/wwwroot/js/site.js",
+      "Identity": "/home/tomer/Recpies/wwwroot/images/shakshuka-3.jpg",
       "SourceId": "Recipes",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/ariel/Recipes/wwwroot/",
+      "ContentRoot": "/home/tomer/Recpies/wwwroot/",
+      "BasePath": "_content/Recipes",
+      "RelativePath": "images/shakshuka-3.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/shakshuka-3.jpg"
+    },
+    {
+      "Identity": "/home/tomer/Recpies/wwwroot/images/shakshuka.webp",
+      "SourceId": "Recipes",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/tomer/Recpies/wwwroot/",
+      "BasePath": "_content/Recipes",
+      "RelativePath": "images/shakshuka.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/shakshuka.webp"
+    },
+    {
+      "Identity": "/home/tomer/Recpies/wwwroot/js/site.js",
+      "SourceId": "Recipes",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/tomer/Recpies/wwwroot/",
       "BasePath": "_content/Recipes",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -1139,10 +1904,10 @@
       "OriginalItemSpec": "wwwroot/js/site.js"
     },
     {
-      "Identity": "/home/ariel/Recipes/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "Identity": "/home/tomer/Recpies/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
       "SourceId": "Recipes",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/ariel/Recipes/wwwroot/",
+      "ContentRoot": "/home/tomer/Recpies/wwwroot/",
       "BasePath": "_content/Recipes",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -1156,10 +1921,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css"
     },
     {
-      "Identity": "/home/ariel/Recipes/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "Identity": "/home/tomer/Recpies/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "SourceId": "Recipes",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/ariel/Recipes/wwwroot/",
+      "ContentRoot": "/home/tomer/Recpies/wwwroot/",
       "BasePath": "_content/Recipes",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -1173,10 +1938,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map"
     },
     {
-      "Identity": "/home/ariel/Recipes/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "Identity": "/home/tomer/Recpies/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "SourceId": "Recipes",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/ariel/Recipes/wwwroot/",
+      "ContentRoot": "/home/tomer/Recpies/wwwroot/",
       "BasePath": "_content/Recipes",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -1190,10 +1955,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css"
     },
     {
-      "Identity": "/home/ariel/Recipes/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "Identity": "/home/tomer/Recpies/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "SourceId": "Recipes",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/ariel/Recipes/wwwroot/",
+      "ContentRoot": "/home/tomer/Recpies/wwwroot/",
       "BasePath": "_content/Recipes",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -1207,10 +1972,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "/home/ariel/Recipes/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "Identity": "/home/tomer/Recpies/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "SourceId": "Recipes",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/ariel/Recipes/wwwroot/",
+      "ContentRoot": "/home/tomer/Recpies/wwwroot/",
       "BasePath": "_content/Recipes",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -1224,10 +1989,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "/home/ariel/Recipes/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "Identity": "/home/tomer/Recpies/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "SourceId": "Recipes",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/ariel/Recipes/wwwroot/",
+      "ContentRoot": "/home/tomer/Recpies/wwwroot/",
       "BasePath": "_content/Recipes",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -1241,10 +2006,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "/home/ariel/Recipes/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "Identity": "/home/tomer/Recpies/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "SourceId": "Recipes",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/ariel/Recipes/wwwroot/",
+      "ContentRoot": "/home/tomer/Recpies/wwwroot/",
       "BasePath": "_content/Recipes",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -1258,10 +2023,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "/home/ariel/Recipes/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "Identity": "/home/tomer/Recpies/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "SourceId": "Recipes",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/ariel/Recipes/wwwroot/",
+      "ContentRoot": "/home/tomer/Recpies/wwwroot/",
       "BasePath": "_content/Recipes",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -1275,10 +2040,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "/home/ariel/Recipes/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "Identity": "/home/tomer/Recpies/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
       "SourceId": "Recipes",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/ariel/Recipes/wwwroot/",
+      "ContentRoot": "/home/tomer/Recpies/wwwroot/",
       "BasePath": "_content/Recipes",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -1292,10 +2057,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css"
     },
     {
-      "Identity": "/home/ariel/Recipes/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "Identity": "/home/tomer/Recpies/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "SourceId": "Recipes",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/ariel/Recipes/wwwroot/",
+      "ContentRoot": "/home/tomer/Recpies/wwwroot/",
       "BasePath": "_content/Recipes",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -1309,10 +2074,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
     },
     {
-      "Identity": "/home/ariel/Recipes/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "Identity": "/home/tomer/Recpies/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "SourceId": "Recipes",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/ariel/Recipes/wwwroot/",
+      "ContentRoot": "/home/tomer/Recpies/wwwroot/",
       "BasePath": "_content/Recipes",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -1326,10 +2091,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
     },
     {
-      "Identity": "/home/ariel/Recipes/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "Identity": "/home/tomer/Recpies/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "SourceId": "Recipes",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/ariel/Recipes/wwwroot/",
+      "ContentRoot": "/home/tomer/Recpies/wwwroot/",
       "BasePath": "_content/Recipes",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -1343,10 +2108,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "/home/ariel/Recipes/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "Identity": "/home/tomer/Recpies/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "SourceId": "Recipes",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/ariel/Recipes/wwwroot/",
+      "ContentRoot": "/home/tomer/Recpies/wwwroot/",
       "BasePath": "_content/Recipes",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -1360,10 +2125,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "/home/ariel/Recipes/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "Identity": "/home/tomer/Recpies/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "SourceId": "Recipes",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/ariel/Recipes/wwwroot/",
+      "ContentRoot": "/home/tomer/Recpies/wwwroot/",
       "BasePath": "_content/Recipes",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -1377,10 +2142,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "/home/ariel/Recipes/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "Identity": "/home/tomer/Recpies/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "SourceId": "Recipes",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/ariel/Recipes/wwwroot/",
+      "ContentRoot": "/home/tomer/Recpies/wwwroot/",
       "BasePath": "_content/Recipes",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -1394,10 +2159,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "/home/ariel/Recipes/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "Identity": "/home/tomer/Recpies/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "SourceId": "Recipes",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/ariel/Recipes/wwwroot/",
+      "ContentRoot": "/home/tomer/Recpies/wwwroot/",
       "BasePath": "_content/Recipes",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -1411,10 +2176,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "/home/ariel/Recipes/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "Identity": "/home/tomer/Recpies/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
       "SourceId": "Recipes",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/ariel/Recipes/wwwroot/",
+      "ContentRoot": "/home/tomer/Recpies/wwwroot/",
       "BasePath": "_content/Recipes",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -1428,10 +2193,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css"
     },
     {
-      "Identity": "/home/ariel/Recipes/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "Identity": "/home/tomer/Recpies/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "SourceId": "Recipes",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/ariel/Recipes/wwwroot/",
+      "ContentRoot": "/home/tomer/Recpies/wwwroot/",
       "BasePath": "_content/Recipes",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -1445,10 +2210,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
     },
     {
-      "Identity": "/home/ariel/Recipes/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "Identity": "/home/tomer/Recpies/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "SourceId": "Recipes",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/ariel/Recipes/wwwroot/",
+      "ContentRoot": "/home/tomer/Recpies/wwwroot/",
       "BasePath": "_content/Recipes",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -1462,10 +2227,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
     },
     {
-      "Identity": "/home/ariel/Recipes/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "Identity": "/home/tomer/Recpies/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "SourceId": "Recipes",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/ariel/Recipes/wwwroot/",
+      "ContentRoot": "/home/tomer/Recpies/wwwroot/",
       "BasePath": "_content/Recipes",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -1479,10 +2244,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "/home/ariel/Recipes/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "Identity": "/home/tomer/Recpies/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "SourceId": "Recipes",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/ariel/Recipes/wwwroot/",
+      "ContentRoot": "/home/tomer/Recpies/wwwroot/",
       "BasePath": "_content/Recipes",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -1496,10 +2261,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "/home/ariel/Recipes/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "Identity": "/home/tomer/Recpies/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "SourceId": "Recipes",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/ariel/Recipes/wwwroot/",
+      "ContentRoot": "/home/tomer/Recpies/wwwroot/",
       "BasePath": "_content/Recipes",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -1513,10 +2278,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "/home/ariel/Recipes/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "Identity": "/home/tomer/Recpies/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "SourceId": "Recipes",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/ariel/Recipes/wwwroot/",
+      "ContentRoot": "/home/tomer/Recpies/wwwroot/",
       "BasePath": "_content/Recipes",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -1530,10 +2295,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "/home/ariel/Recipes/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "Identity": "/home/tomer/Recpies/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "SourceId": "Recipes",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/ariel/Recipes/wwwroot/",
+      "ContentRoot": "/home/tomer/Recpies/wwwroot/",
       "BasePath": "_content/Recipes",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -1547,10 +2312,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "/home/ariel/Recipes/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "Identity": "/home/tomer/Recpies/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
       "SourceId": "Recipes",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/ariel/Recipes/wwwroot/",
+      "ContentRoot": "/home/tomer/Recpies/wwwroot/",
       "BasePath": "_content/Recipes",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -1564,10 +2329,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.css"
     },
     {
-      "Identity": "/home/ariel/Recipes/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "Identity": "/home/tomer/Recpies/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
       "SourceId": "Recipes",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/ariel/Recipes/wwwroot/",
+      "ContentRoot": "/home/tomer/Recpies/wwwroot/",
       "BasePath": "_content/Recipes",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -1581,10 +2346,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.css.map"
     },
     {
-      "Identity": "/home/ariel/Recipes/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "Identity": "/home/tomer/Recpies/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
       "SourceId": "Recipes",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/ariel/Recipes/wwwroot/",
+      "ContentRoot": "/home/tomer/Recpies/wwwroot/",
       "BasePath": "_content/Recipes",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -1598,10 +2363,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.min.css"
     },
     {
-      "Identity": "/home/ariel/Recipes/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "Identity": "/home/tomer/Recpies/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
       "SourceId": "Recipes",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/ariel/Recipes/wwwroot/",
+      "ContentRoot": "/home/tomer/Recpies/wwwroot/",
       "BasePath": "_content/Recipes",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -1615,10 +2380,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map"
     },
     {
-      "Identity": "/home/ariel/Recipes/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "Identity": "/home/tomer/Recpies/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
       "SourceId": "Recipes",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/ariel/Recipes/wwwroot/",
+      "ContentRoot": "/home/tomer/Recpies/wwwroot/",
       "BasePath": "_content/Recipes",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -1632,10 +2397,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css"
     },
     {
-      "Identity": "/home/ariel/Recipes/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "Identity": "/home/tomer/Recpies/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "SourceId": "Recipes",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/ariel/Recipes/wwwroot/",
+      "ContentRoot": "/home/tomer/Recpies/wwwroot/",
       "BasePath": "_content/Recipes",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -1649,10 +2414,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
     },
     {
-      "Identity": "/home/ariel/Recipes/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "Identity": "/home/tomer/Recpies/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "SourceId": "Recipes",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/ariel/Recipes/wwwroot/",
+      "ContentRoot": "/home/tomer/Recpies/wwwroot/",
       "BasePath": "_content/Recipes",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -1666,10 +2431,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
     },
     {
-      "Identity": "/home/ariel/Recipes/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "Identity": "/home/tomer/Recpies/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "SourceId": "Recipes",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/ariel/Recipes/wwwroot/",
+      "ContentRoot": "/home/tomer/Recpies/wwwroot/",
       "BasePath": "_content/Recipes",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -1683,10 +2448,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "/home/ariel/Recipes/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "Identity": "/home/tomer/Recpies/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
       "SourceId": "Recipes",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/ariel/Recipes/wwwroot/",
+      "ContentRoot": "/home/tomer/Recpies/wwwroot/",
       "BasePath": "_content/Recipes",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -1700,10 +2465,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js"
     },
     {
-      "Identity": "/home/ariel/Recipes/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "Identity": "/home/tomer/Recpies/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "SourceId": "Recipes",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/ariel/Recipes/wwwroot/",
+      "ContentRoot": "/home/tomer/Recpies/wwwroot/",
       "BasePath": "_content/Recipes",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -1717,10 +2482,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
     },
     {
-      "Identity": "/home/ariel/Recipes/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "Identity": "/home/tomer/Recpies/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "SourceId": "Recipes",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/ariel/Recipes/wwwroot/",
+      "ContentRoot": "/home/tomer/Recpies/wwwroot/",
       "BasePath": "_content/Recipes",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -1734,10 +2499,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
     },
     {
-      "Identity": "/home/ariel/Recipes/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "Identity": "/home/tomer/Recpies/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "SourceId": "Recipes",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/ariel/Recipes/wwwroot/",
+      "ContentRoot": "/home/tomer/Recpies/wwwroot/",
       "BasePath": "_content/Recipes",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -1751,10 +2516,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "/home/ariel/Recipes/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
+      "Identity": "/home/tomer/Recpies/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
       "SourceId": "Recipes",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/ariel/Recipes/wwwroot/",
+      "ContentRoot": "/home/tomer/Recpies/wwwroot/",
       "BasePath": "_content/Recipes",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -1768,10 +2533,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js"
     },
     {
-      "Identity": "/home/ariel/Recipes/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
+      "Identity": "/home/tomer/Recpies/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "SourceId": "Recipes",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/ariel/Recipes/wwwroot/",
+      "ContentRoot": "/home/tomer/Recpies/wwwroot/",
       "BasePath": "_content/Recipes",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -1785,10 +2550,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map"
     },
     {
-      "Identity": "/home/ariel/Recipes/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
+      "Identity": "/home/tomer/Recpies/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "SourceId": "Recipes",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/ariel/Recipes/wwwroot/",
+      "ContentRoot": "/home/tomer/Recpies/wwwroot/",
       "BasePath": "_content/Recipes",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -1802,10 +2567,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js"
     },
     {
-      "Identity": "/home/ariel/Recipes/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "Identity": "/home/tomer/Recpies/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "SourceId": "Recipes",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/ariel/Recipes/wwwroot/",
+      "ContentRoot": "/home/tomer/Recpies/wwwroot/",
       "BasePath": "_content/Recipes",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -1819,10 +2584,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "/home/ariel/Recipes/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "Identity": "/home/tomer/Recpies/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
       "SourceId": "Recipes",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/ariel/Recipes/wwwroot/",
+      "ContentRoot": "/home/tomer/Recpies/wwwroot/",
       "BasePath": "_content/Recipes",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -1836,10 +2601,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.js"
     },
     {
-      "Identity": "/home/ariel/Recipes/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
+      "Identity": "/home/tomer/Recpies/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
       "SourceId": "Recipes",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/ariel/Recipes/wwwroot/",
+      "ContentRoot": "/home/tomer/Recpies/wwwroot/",
       "BasePath": "_content/Recipes",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -1853,10 +2618,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.js.map"
     },
     {
-      "Identity": "/home/ariel/Recipes/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "Identity": "/home/tomer/Recpies/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
       "SourceId": "Recipes",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/ariel/Recipes/wwwroot/",
+      "ContentRoot": "/home/tomer/Recpies/wwwroot/",
       "BasePath": "_content/Recipes",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -1870,10 +2635,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.min.js"
     },
     {
-      "Identity": "/home/ariel/Recipes/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "Identity": "/home/tomer/Recpies/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
       "SourceId": "Recipes",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/ariel/Recipes/wwwroot/",
+      "ContentRoot": "/home/tomer/Recpies/wwwroot/",
       "BasePath": "_content/Recipes",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -1887,10 +2652,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map"
     },
     {
-      "Identity": "/home/ariel/Recipes/wwwroot/lib/bootstrap/LICENSE",
+      "Identity": "/home/tomer/Recpies/wwwroot/lib/bootstrap/LICENSE",
       "SourceId": "Recipes",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/ariel/Recipes/wwwroot/",
+      "ContentRoot": "/home/tomer/Recpies/wwwroot/",
       "BasePath": "_content/Recipes",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -1904,10 +2669,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/LICENSE"
     },
     {
-      "Identity": "/home/ariel/Recipes/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "Identity": "/home/tomer/Recpies/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "SourceId": "Recipes",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/ariel/Recipes/wwwroot/",
+      "ContentRoot": "/home/tomer/Recpies/wwwroot/",
       "BasePath": "_content/Recipes",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -1921,10 +2686,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "/home/ariel/Recipes/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "Identity": "/home/tomer/Recpies/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "SourceId": "Recipes",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/ariel/Recipes/wwwroot/",
+      "ContentRoot": "/home/tomer/Recpies/wwwroot/",
       "BasePath": "_content/Recipes",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -1938,10 +2703,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "/home/ariel/Recipes/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "Identity": "/home/tomer/Recpies/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
       "SourceId": "Recipes",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/ariel/Recipes/wwwroot/",
+      "ContentRoot": "/home/tomer/Recpies/wwwroot/",
       "BasePath": "_content/Recipes",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -1955,10 +2720,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt"
     },
     {
-      "Identity": "/home/ariel/Recipes/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "Identity": "/home/tomer/Recpies/wwwroot/lib/jquery-validation/dist/additional-methods.js",
       "SourceId": "Recipes",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/ariel/Recipes/wwwroot/",
+      "ContentRoot": "/home/tomer/Recpies/wwwroot/",
       "BasePath": "_content/Recipes",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -1972,10 +2737,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/additional-methods.js"
     },
     {
-      "Identity": "/home/ariel/Recipes/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "Identity": "/home/tomer/Recpies/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
       "SourceId": "Recipes",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/ariel/Recipes/wwwroot/",
+      "ContentRoot": "/home/tomer/Recpies/wwwroot/",
       "BasePath": "_content/Recipes",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -1989,10 +2754,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/additional-methods.min.js"
     },
     {
-      "Identity": "/home/ariel/Recipes/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "Identity": "/home/tomer/Recpies/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
       "SourceId": "Recipes",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/ariel/Recipes/wwwroot/",
+      "ContentRoot": "/home/tomer/Recpies/wwwroot/",
       "BasePath": "_content/Recipes",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -2006,10 +2771,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/jquery.validate.js"
     },
     {
-      "Identity": "/home/ariel/Recipes/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "Identity": "/home/tomer/Recpies/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
       "SourceId": "Recipes",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/ariel/Recipes/wwwroot/",
+      "ContentRoot": "/home/tomer/Recpies/wwwroot/",
       "BasePath": "_content/Recipes",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -2023,10 +2788,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/jquery.validate.min.js"
     },
     {
-      "Identity": "/home/ariel/Recipes/wwwroot/lib/jquery-validation/LICENSE.md",
+      "Identity": "/home/tomer/Recpies/wwwroot/lib/jquery-validation/LICENSE.md",
       "SourceId": "Recipes",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/ariel/Recipes/wwwroot/",
+      "ContentRoot": "/home/tomer/Recpies/wwwroot/",
       "BasePath": "_content/Recipes",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -2040,10 +2805,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery-validation/LICENSE.md"
     },
     {
-      "Identity": "/home/ariel/Recipes/wwwroot/lib/jquery/dist/jquery.js",
+      "Identity": "/home/tomer/Recpies/wwwroot/lib/jquery/dist/jquery.js",
       "SourceId": "Recipes",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/ariel/Recipes/wwwroot/",
+      "ContentRoot": "/home/tomer/Recpies/wwwroot/",
       "BasePath": "_content/Recipes",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -2057,10 +2822,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery/dist/jquery.js"
     },
     {
-      "Identity": "/home/ariel/Recipes/wwwroot/lib/jquery/dist/jquery.min.js",
+      "Identity": "/home/tomer/Recpies/wwwroot/lib/jquery/dist/jquery.min.js",
       "SourceId": "Recipes",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/ariel/Recipes/wwwroot/",
+      "ContentRoot": "/home/tomer/Recpies/wwwroot/",
       "BasePath": "_content/Recipes",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -2074,10 +2839,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery/dist/jquery.min.js"
     },
     {
-      "Identity": "/home/ariel/Recipes/wwwroot/lib/jquery/dist/jquery.min.map",
+      "Identity": "/home/tomer/Recpies/wwwroot/lib/jquery/dist/jquery.min.map",
       "SourceId": "Recipes",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/ariel/Recipes/wwwroot/",
+      "ContentRoot": "/home/tomer/Recpies/wwwroot/",
       "BasePath": "_content/Recipes",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -2091,10 +2856,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery/dist/jquery.min.map"
     },
     {
-      "Identity": "/home/ariel/Recipes/wwwroot/lib/jquery/LICENSE.txt",
+      "Identity": "/home/tomer/Recpies/wwwroot/lib/jquery/LICENSE.txt",
       "SourceId": "Recipes",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/ariel/Recipes/wwwroot/",
+      "ContentRoot": "/home/tomer/Recpies/wwwroot/",
       "BasePath": "_content/Recipes",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
